@@ -4,9 +4,9 @@ title:  "Weighted ASTRID"
 tags: phylogenetics wip
 ---
 
-> (This is heavily WIP and very unfinished.)
+> We explore how to use branch support to improve ASTRID for species tree estimation, just like weighted ASTRAL.
 
-> (I am showing here some personal, entirely unvetted thoughts.)
+> (This is heavily WIP and very unfinished.)
 
 Motivated by weighted ASTRAL (wASTRAL, from the
 Mirarab lab, currently in preprint), I began thinking about a weighted variant
