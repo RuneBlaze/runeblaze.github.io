@@ -51,7 +51,7 @@ This is less crazy than it sounds, and it works surprisingly well for non-parame
 
  1. Construct a best ML tree from the gene alignment
  2. Construct a number (say 100) of bootstrap replicates
- 3. Map support to each split in the best ML tree: FBS support simply maps the ratio of that split appearing in the bootstrap replicates. TBS is more sophisticated, but either way we have a "global" approach to branch support.
+ 3. Map support to each split in the best ML tree: FBP support simply maps the ratio of that split appearing in the bootstrap replicates. TBE is more sophisticated, but either way we have a "global" approach to branch support.
 
 The catch here is that **the branch support is the crude "global" approximation of the probability of that split being correct!** [citation needed, of course, but just believe it for now]. This is notably different from local approximations of branch support, for example aBayes or SH-aLRT, which I conjecture will benefit better from a more "information-theoretical" approach a la wASTRAL's definition.
 
@@ -63,7 +63,7 @@ $$
 
 because recall that we are trying to estimate $$d^*(a, b)$$. Assuming that $$X(a, b)$$, the splitting edges estimated between $$a$$ and $$b$$,
 are "reasonable" to a degree, $$|X(a, b)|$$ will be a worse estimator for $$d^*(a, b)$$ compared to $$d(a, b)$$. This might even have
-a better property when we are using TBS. The implementation will be simple and still fast, and the problem for setting up experiments
+a better property when we are using TBE. The implementation will be simple and still fast, and the problem for setting up experiments
 is simply that bootstrapping is extremely costly. While things like IQTree's UFBoot2 or RAxML's RBS might help (they are the only
 global branch support that I am aware of besides standard BS), it is not clear if they should be as trusted as SBS.
 
