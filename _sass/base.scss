@@ -6,7 +6,24 @@ body {
     color: $text-color;
     margin: 0;
     word-break: break-word;
-    font-family: Helvetica,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    avenir next, avenir, segoe ui, 
+    helvetica neue, helvetica, Ubuntu, roboto, 
+    noto, arial, sans-serif;;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+h2, h3 {
+    // font-family: Iowan Old Style, 
+    // Apple Garamond, Baskerville, 
+    // Times New Roman, Droid Serif, Times, 
+    // Source Serif Pro, serif, 
+    // Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+
+    font-weight: 700;
 }
 
 ul {

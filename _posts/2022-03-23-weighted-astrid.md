@@ -125,7 +125,7 @@ conceivably aBayes will work well as the measure of branch support here.
 
 <figure>
   <img src="/assets/images/wastrid/s100_prelim.png" alt="S100 Results"/>
-  <figcaption><strong>Preliminary results showing nRF error rates on the S100 dataset.</strong> The non-contracted version of S100 is used.</figcaption>
+  <figcaption><strong>Preliminary results showing nRF error rates on the S100 dataset varying sequence lengths and the number of genes (k).</strong> The non-contracted version of S100 is used. "ASTRID" denotes ASTRID run with default parameters. "wASTRID" is weighted ASTRID with the simple bootstrap summing scheme. "wASTRID*" is weighted ASTRID with the pseudo-probabilistic interpretation. Shown data is averaged across 50 replicates.</figcaption>
 </figure>
 
 (So right now everything is promising, but certainly we need more improvements.)
