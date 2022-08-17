@@ -1,6 +1,8 @@
 $base-font-size: 16px !default;
 $text-color: black;
 $border-color: lightgray;
+$secondary-color: #03dac6;
+$secondary-variant: #018786;
 
 body {
     color: $text-color;
@@ -9,7 +11,19 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 
     avenir next, avenir, segoe ui, 
     helvetica neue, helvetica, Ubuntu, roboto, 
-    noto, arial, sans-serif;;
+    noto, arial, sans-serif;
+
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    * {
+        max-width: 100%;
+    }
+}
+
+a {
+    color: $secondary-variant;
+    // text-decoration: none;
 }
 
 h2 {
@@ -47,6 +61,10 @@ header,footer {
     padding: 1em;
 }
 
+.footnotes {
+    font-size: 0.9em;
+}
+
 .site-title {
     color: $text-color;
     font-weight: bold; 
@@ -71,11 +89,15 @@ p {
     line-height: 1.5;
 }
 
-.content-wrapper {
-    max-width: 800px;
-    margin-right: auto;
-    margin-left: auto;
-    * {
-        max-width: 100%;
-    }
+ul, ol {
+    line-height: 1.5;
 }
+
+// .content-wrapper {
+//     max-width: 800px;
+//     margin-right: auto;
+//     margin-left: auto;
+//     * {
+//         max-width: 100%;
+//     }
+// }
