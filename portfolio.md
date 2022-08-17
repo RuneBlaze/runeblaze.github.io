@@ -11,7 +11,7 @@ A list of works that I have done, a portfolio aimed for industry.
 #### [WITCH-NG](https://github.com/RuneBlaze/WITCH-NG)
 
  - Bioinformatics tool for adding unaligned fragments to a reference multiple-sequence alignment.
- - The most accurate software of its class (building on [WITCH](https://github.com/c5shen/WITCH)), but redesigned with better performance in Rust with some algorithmic simplification.
+ - The most accurate software of its class (building on [WITCH](https://github.com/c5shen/WITCH)), but redesigned with better performance in Rust with some algorithmic simplifications.
 
 [![shields.io](https://img.shields.io/badge/research_paper-bioRxiv_preprint-teal?style=flat-square)](https://www.biorxiv.org/content/10.1101/2022.08.08.503232v1)
 
@@ -19,7 +19,7 @@ A list of works that I have done, a portfolio aimed for industry.
 
 #### [Internode](https://github.com/RuneBlaze/internode)
 
- - Bioinformatics tool that infers accurate (almost head-to-head with state-of-the-art) species trees, but very fast.
+ - Bioinformatics tool that infers accurate (comparable to that of state-of-the-art) species trees, but very fast.
  - The fastest (while competitive accuracy) software of its class.
 
 [![shields.io](https://img.shields.io/badge/research_paper-bioRxiv_preprint-teal?style=flat-square)](https://www.biorxiv.org/content/10.1101/2022.05.24.493312v1)
@@ -30,7 +30,7 @@ A list of works that I have done, a portfolio aimed for industry.
 #### [Fifteen](https://github.com/RuneBlaze/fifteen)
 
  - Python bioinformatics library that contains data structures for querying topologies on phylogenetic trees.
- - Implements sparse tables (for fast LCA querying) and uses Maturin and PyO3 for the Rust-Python bridge
+ - Implements sparse tables (for fast LCA querying) and uses [Maturin](https://github.com/PyO3/maturin) and [PyO3](https://pyo3.rs/v0.16.4/) for the Rust-Python bridge
 
 -----
 
@@ -62,7 +62,7 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 <img src="/assets/images/banners/tree.png" alt="Tree"/>
 
 - A narrative game with light puzzle elements focused on a young [Tujia](https://en.wikipedia.org/wiki/Tujia_people) girl.
-- Made in Unity with C#, part of a team effort where I programmed substantial parts of the puzzles.
+- Made in Unity with C#. I programmed a substantial part of the puzzles.
 - [Silver Award (Green Track)](https://gameinstitute-qq-com.translate.goog/yxds-2021/works/101910?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp), 2021 Tencent Youth Game Designer Challenge 
 
 ----
@@ -71,7 +71,7 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 <img src="/assets/images/banners/dragonspirits.png" alt="Dragon Spirits"/>
 
 - A Pokemon-inspired game but heavily focused on dragons and a nostalgic school life.
-- I was once the lead programmer of the game, finishing much of its core battle system.
+- I served as the lead programmer of the game, did the work of all its core battle system.
 - Made in RPG Maker VX Ace (at the end of the gradual extinction of this engine) with a lot of Ruby.
 
 ----
@@ -88,13 +88,14 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 #### [WaveSTG](https://globalgamejam.org/2017/games/wavestg) (2017, Global Game Jam)
 <img src="/assets/images/banners/wavestg.png" alt="WaveSTG"/>
 
- - A bullet-hell game where waves of bullets must be survived.
+ - A bullet-hell game with a simple design: dodge waves of bullets.
  - Made in Love2D (Lua game engine) and finished in 48 hours.
 
 ----
 
 #### [EienteiRL](http://roguebasin.com/index.php/EienteiRL) (2015, 7DRL Entry)
 <img src="/assets/images/banners/eienteirl.png" alt="EienteiRL"/>
+
  - A classical roguelike game but with Touhou-themed twists.
  - See [reviews](https://roguetemple.com/7drl/2015/) at the time by 7DRL judges.
  - Made in Gosu (Ruby game engine) and finished in seven days.
@@ -128,10 +129,6 @@ can be bad. All music were made as part of the group [Mad Hatter Tea](https://en
 
 #### Competitive Programming
 
-I used to *very* casually compete at ACM-ICPC.
+I used to very casually compete at ACM-ICPC.
 
  - ACM-ICPC 2018 Mid-Atlantic Regional, [6th place](https://mausa18.kattis.com/contests/mausa18/standings) out of 185 teams
-
-<!-- ### Others
-
-See also [Fun](/fun/), which has other even more irrelevant things. -->
