@@ -12,8 +12,8 @@ All research shown here are done as part of [the Warnow lab](http://tandy.cs.ill
 
 #### [WITCH-NG](https://github.com/RuneBlaze/WITCH-NG)
 
- - Bioinformatics tool for adding unaligned fragments to a reference multiple-sequence alignment.
- - The most accurate software of its class (building on [WITCH](https://github.com/c5shen/WITCH)), but redesigned with better performance in Rust with some algorithmic simplifications.
+ - Rust-powered bioinformatics tool for adding unaligned fragments to a reference multiple-sequence alignment.
+ - The most accurate software of its class (building on [WITCH](https://github.com/c5shen/WITCH)), but re-engineered and re-designed with a focus on performance.
 
 [![shields.io](https://img.shields.io/badge/research_paper-bioRxiv_preprint-teal?style=flat-square)](https://www.biorxiv.org/content/10.1101/2022.08.08.503232v1)
 
@@ -21,7 +21,7 @@ All research shown here are done as part of [the Warnow lab](http://tandy.cs.ill
 
 #### [Internode](https://github.com/RuneBlaze/internode)
 
- - Bioinformatics tool that infers accurate (comparable to that of state-of-the-art) species trees, but very fast.
+ - Rust-powered bioinformatics tool that infers accurate (comparable to that of state-of-the-art) species trees, but very fast.
  - The fastest (while competitive accuracy) software of its class.
 
 [![shields.io](https://img.shields.io/badge/research_paper-bioRxiv_preprint-teal?style=flat-square)](https://www.biorxiv.org/content/10.1101/2022.05.24.493312v1)
@@ -31,7 +31,7 @@ All research shown here are done as part of [the Warnow lab](http://tandy.cs.ill
 
 #### [Fifteen](https://github.com/RuneBlaze/fifteen)
 
- - Python bioinformatics library that contains data structures for querying topologies on phylogenetic trees.
+ - Python data structure library for querying topologies on phylogenetic trees.
  - Implements sparse tables (for fast LCA querying) and uses [Maturin](https://github.com/PyO3/maturin) and [PyO3](https://pyo3.rs/v0.16.4/) for the Rust-Python bridge
 
 -----
@@ -67,7 +67,7 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 
 ----
 
-#### [Dragon Spirits](https://store.steampowered.com/app/1074190/Dragon_Spirits/) ("龙魂", Steam 2020, part of a team led by [FHNBHJ](https://twitter.com/forharnia/))
+#### [Dragon Spirits](https://store.steampowered.com/app/1074190/Dragon_Spirits/) (Steam 2020, part of a team led by FHNBHJ)
 <img src="/assets/images/banners/dragonspirits.png" alt="Dragon Spirits"/>
 
 - A Pokemon-inspired game but heavily focused on dragons and a nostalgic school life.
@@ -79,8 +79,8 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 #### [JingkeRL](https://ceremonial.itch.io/jingkerl) (2018, 7DRL Entry)
 <img src="/assets/images/banners/jingkerl.png" alt="JingkeRL"/>
 
-- A small historical roguelike game, a reenactment of Jingke's last moments.
-- See [reviews](https://itch.io/jam/7drl-challenge-2018/rate/233653) at the time by 7DRL judges.
+- A small historical roguelike game, a reenactment of a famous ancient Chinese tragedy.
+<!-- - See [reviews](https://itch.io/jam/7drl-challenge-2018/rate/233653) at the time by 7DRL judges. -->
 - Made using Rot.js paired with TypeScript and finished in four days.
 
 ----
@@ -98,7 +98,18 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 
  - A classical roguelike game but with Touhou-themed twists.
  - See [reviews](https://roguetemple.com/7drl/2015/) at the time by 7DRL judges.
+   - > Eientei brings innovative mechanics I've not seen before. The bullets that fill each room are only dangerous if you stop to attack. This is an excellent mechanic [...]
  - Made in Gosu (Ruby game engine) and finished in seven days.
+
+------
+
+### Misc
+
+#### Competitive Programming
+
+I used to very casually compete at ACM-ICPC.
+
+ - ACM-ICPC 2018 Mid-Atlantic Regional, [6th place](https://mausa18.kattis.com/contests/mausa18/standings) out of 185 teams
 
 ----
 
@@ -107,7 +118,7 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 I used to arrange music for fun, but it did not take long before others to rightfully realize
 that knowing to play the piano as an amateur is totally different from being able to arrange music.
 
-Note that links are to Netease Cloud Music (somewhat a Chinese Spotify) and that the music
+Note that links are to NetEase Cloud Music (somewhat a Chinese Spotify) and that the music
 can be bad. All music were made as part of the group [Mad Hatter Tea](https://en.touhouwiki.net/wiki/%E7%96%AF%E5%B8%BD%E5%AD%90%E8%8C%B6%E4%BC%9A).
 
 #### Qingdao THOnly 2017 Album ("MhT X 青岛THO纪念专辑", 2017, in collaboration with 核弹阿茶)
@@ -122,13 +133,3 @@ can be bad. All music were made as part of the group [Mad Hatter Tea](https://en
 
 
 [![shields.io](https://img.shields.io/badge/%E2%99%AB_listen_online-netease_cloud_music-red?style=for-the-badge)](https://music.163.com/#/song?id=1822832248)
-
-------
-
-### Misc
-
-#### Competitive Programming
-
-I used to very casually compete at ACM-ICPC.
-
- - ACM-ICPC 2018 Mid-Atlantic Regional, [6th place](https://mausa18.kattis.com/contests/mausa18/standings) out of 185 teams
