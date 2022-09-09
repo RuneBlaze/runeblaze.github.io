@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-A list of works that I have done, a portfolio aimed for industry.
+See [research software](#research-software), other [open source software I have done](#other-software), [games](#games) or even [music](#music).
 
 ### Research Software
 
@@ -62,12 +62,12 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 <img src="/assets/images/banners/tree.png" alt="Tree"/>
 
 - A narrative game with light puzzle elements focused on a young [Tujia](https://en.wikipedia.org/wiki/Tujia_people) girl.
-- Made in Unity with C#. I programmed a substantial part of the puzzles.
+- Made in Unity with C#. I programmed a substantial part of the puzzles and was part of the leadership.
 - [Silver Award (Green Track)](https://gameinstitute-qq-com.translate.goog/yxds-2021/works/101910?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp), 2021 Tencent Youth Game Designer Challenge 
 
 ----
 
-#### [Dragon Spirits](https://store.steampowered.com/app/1074190/Dragon_Spirits/) (Steam 2020, part of a team led by FHNBHJ)
+#### [Dragon Spirits](https://store.steampowered.com/app/1074190/Dragon_Spirits/) (Steam 2020, with FHNBHJ and co.)
 <img src="/assets/images/banners/dragonspirits.png" alt="Dragon Spirits"/>
 
 - A Pokemon-inspired game but heavily focused on dragons and a nostalgic school life.
@@ -80,7 +80,6 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 <img src="/assets/images/banners/jingkerl.png" alt="JingkeRL"/>
 
 - A small historical roguelike game, a reenactment of a famous ancient Chinese tragedy.
-<!-- - See [reviews](https://itch.io/jam/7drl-challenge-2018/rate/233653) at the time by 7DRL judges. -->
 - Made using Rot.js paired with TypeScript and finished in four days.
 
 ----
