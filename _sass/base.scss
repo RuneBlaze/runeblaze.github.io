@@ -2,16 +2,38 @@ $base-font-size: 16px !default;
 $text-color: black;
 $border-color: lightgray;
 $secondary-color: #03dac6;
-$secondary-variant: #018786;
+$secondary-variant: #228282;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+
+.site-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+// .sideline {
+//     font-family: 'Roboto Condensed', sans-serif;
+// }
+
+header a {
+    color: $text-color;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+em.deemph {
+    color: gray;
+    text-decoration: none;
+}
+
+
 
 body {
     color: $text-color;
     margin: 0;
     word-break: break-word;
-    font-family: -apple-system, BlinkMacSystemFont, 
-    avenir next, avenir, segoe ui, 
-    helvetica neue, helvetica, Ubuntu, roboto, 
-    noto, arial, sans-serif;
+    font-family: Noto Sans SC;
 
     max-width: 800px;
     margin-right: auto;
@@ -21,14 +43,37 @@ body {
     }
 }
 
+a{
+    text-decoration:none;
+ }
+ 
+ a:hover {
+    text-decoration:underline;
+ }
+ 
+
 a {
     color: $secondary-variant;
-    // text-decoration: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+.tagline {
+    font-size: 1.05em;
+    margin-bottom: 2em;
+    // font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2 {
-    margin-bottom: 8px;
+    text-transform: uppercase;
+    margin-bottom: 0.1em;
 }
+
+
 
 h2, h3 {
     // font-family: Iowan Old Style, 

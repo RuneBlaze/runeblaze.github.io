@@ -1,64 +1,73 @@
 ---
 layout: page
-title: Portfolio
+title: Works
 permalink: /portfolio/
 ---
 
-See [research software](#research-software), other [open source software I have done](#other-software), [games](#games) or even [music](#music).
+<div class="tagline">
+Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <em class="deemph">/</em> Music
+</div>
 
-### Research Software
+<!-- See [research software](#research-software), other [open source software I have done](#other-software), [games](#games) or even [music](#music). -->
 
-All research shown here are done as part of [the Warnow lab](http://tandy.cs.illinois.edu/) at the University of Illinois Urbana-Champaign.
+## Research
 
-#### [WITCH-NG](https://github.com/RuneBlaze/WITCH-NG)
+@[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign.
+
+### [WITCH-NG](https://github.com/RuneBlaze/WITCH-NG)
+
+<div class="sideline">Rust <em class="deemph">/</em> High Performance Data Analytics <em class="deemph">/</em> Bioinformatics</div>
 
  - Rust-powered bioinformatics tool for adding unaligned fragments to a reference multiple-sequence alignment.
  - The most accurate software of its class (building on [WITCH](https://github.com/c5shen/WITCH)), but re-engineered and re-designed with a focus on performance.
 
-[![shields.io](https://img.shields.io/badge/research_paper-bioRxiv_preprint-teal?style=flat-square)](https://www.biorxiv.org/content/10.1101/2022.08.08.503232v1)
+<!-- [![shields.io](https://img.shields.io/badge/research_paper-bioRxiv_preprint-teal?style=flat-square)](https://www.biorxiv.org/content/10.1101/2022.08.08.503232v1) -->
 
 -----
 
-#### [Internode](https://github.com/RuneBlaze/internode)
+### [Internode](https://github.com/RuneBlaze/internode)
 
- - Rust-powered bioinformatics tool that infers accurate (comparable to that of state-of-the-art) species trees, but very fast.
- - The fastest (while competitive accuracy) software of its class.
+<div class="sideline">Rust <em class="deemph">/</em> High Performance Data Analytics <em class="deemph">/</em> Bioinformatics</div>
 
-[![shields.io](https://img.shields.io/badge/research_paper-bioRxiv_preprint-teal?style=flat-square)](https://www.biorxiv.org/content/10.1101/2022.05.24.493312v1)
+ - Computes species trees (evolutionary history on species) extremely fast while retaining high accuracy
+
+<!-- [![shields.io](https://img.shields.io/badge/research_paper-bioRxiv_preprint-teal?style=flat-square)](https://www.biorxiv.org/content/10.1101/2022.05.24.493312v1) -->
 
 
 -----
 
-#### [Fifteen](https://github.com/RuneBlaze/fifteen)
+### [Fifteen](https://github.com/RuneBlaze/fifteen)
 
+<div class="sideline">Rust-powered Python Extension <em class="deemph">/</em> Data Structures <em class="deemph">/</em> High Performance Data Science</div>
+
+ <!-- - Rust-powered Python Native Extension <em class="deemph">/</em> Data Structures <em class="deemph">/</em> High Performance Data Science -->
  - Python data structure library for querying topologies on phylogenetic trees.
- - Implements sparse tables (for fast LCA querying) and uses [Maturin](https://github.com/PyO3/maturin) and [PyO3](https://pyo3.rs/v0.16.4/) for the Rust-Python bridge
+ - Implements fast subtree topology querying and uses [Maturin](https://github.com/PyO3/maturin) <em class="deemph">&</em> [PyO3](https://pyo3.rs/v0.16.4/) for the Rust-Python bridge
 
 -----
 
-### Other Software
+## Open Source
 
-#### [Coarse](https://github.com/RuneBlaze/coarse) -- A Lens Library for Clojure
+ - [Coarse](https://github.com/RuneBlaze/coarse) <em class="deemph">/</em> Clojure <em class="deemph">/</em> Functional Programming (Lens) Library
+ - [Siki.lua](https://github.com/BakaBBQ/siki.lua) <em class="deemph">/</em> Lua + Love2d <em class="deemph">/</em> Fighting Game GUI Editor
 
- - A lens (functional setters and getters) library, implemented in Clojure but in a Haskell style.
-
------
-
+<!-- ----- -->
+<!-- 
 #### [Siki.lua](https://github.com/BakaBBQ/siki.lua) -- Frame Editor for Fighting Games
 
- - An interactive GUI editor for frame data usable for fighting games powered by Love2D using Lua.
+ - An interactive GUI editor for frame data usable for fighting games powered by Love2D using Lua. -->
+
+<!-- ----- -->
+
+<!-- ### Other Publications -->
+
+
 
 -----
 
-### Other Publications
+## Games
 
-See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publications.
-
------
-
-### Games
-
-#### [Tree](https://store.steampowered.com/app/1811630/_Tree/) (Steam 2021, Leap Studio)
+### [Tree](https://store.steampowered.com/app/1811630/_Tree/) <em class="deemph">ー</em> 2021
 <img src="/assets/images/banners/tree.png" alt="Tree"/>
 
 - A narrative game with light puzzle elements focused on a young [Tujia](https://en.wikipedia.org/wiki/Tujia_people) girl.
@@ -67,7 +76,7 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 
 ----
 
-#### [Dragon Spirits](https://store.steampowered.com/app/1074190/Dragon_Spirits/) (Steam 2020, with FHNBHJ and co.)
+### [Dragon Spirits](https://store.steampowered.com/app/1074190/Dragon_Spirits/) <em class="deemph">ー</em> 2020
 <img src="/assets/images/banners/dragonspirits.png" alt="Dragon Spirits"/>
 
 - A Pokemon-inspired game but heavily focused on dragons and a nostalgic school life.
@@ -76,7 +85,7 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 
 ----
 
-#### [JingkeRL](https://ceremonial.itch.io/jingkerl) (2018, 7DRL Entry)
+### [JingkeRL](https://ceremonial.itch.io/jingkerl) <em class="deemph">ー</em> 2018
 <img src="/assets/images/banners/jingkerl.png" alt="JingkeRL"/>
 
 - A small historical roguelike game, a reenactment of a famous ancient Chinese tragedy.
@@ -84,7 +93,7 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 
 ----
 
-#### [WaveSTG](https://globalgamejam.org/2017/games/wavestg) (2017, Global Game Jam)
+### [WaveSTG](https://globalgamejam.org/2017/games/wavestg) <em class="deemph">ー</em> 2017
 <img src="/assets/images/banners/wavestg.png" alt="WaveSTG"/>
 
  - A bullet-hell game with a simple design: dodge waves of bullets.
@@ -92,7 +101,7 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 
 ----
 
-#### [EienteiRL](http://roguebasin.com/index.php/EienteiRL) (2015, 7DRL Entry)
+### [EienteiRL](http://roguebasin.com/index.php/EienteiRL) <em class="deemph">ー</em> 2015
 <img src="/assets/images/banners/eienteirl.png" alt="EienteiRL"/>
 
  - A classical roguelike game but with Touhou-themed twists.
@@ -102,33 +111,33 @@ See my [ORCID](https://orcid.org/0000-0002-4210-8269) for a full list of my publ
 
 ------
 
-### Misc
+<!-- ### Misc -->
 
-#### Competitive Programming
+<!-- #### Competitive Programming
 
 I used to very casually compete at ACM-ICPC.
 
  - ACM-ICPC 2018 Mid-Atlantic Regional, [6th place](https://mausa18.kattis.com/contests/mausa18/standings) out of 185 teams
 
-----
+---- -->
 
-### Music
+## Music
 
-I used to arrange music for fun, but it did not take long before others to rightfully realize
-that knowing to play the piano as an amateur is totally different from being able to arrange music.
+As part of [Mad Hatter Tea](https://en.touhouwiki.net/wiki/%E7%96%AF%E5%B8%BD%E5%AD%90%E8%8C%B6%E4%BC%9A).
 
-Note that links are to NetEase Cloud Music (somewhat a Chinese Spotify) and that the music
-can be bad. All music were made as part of the group [Mad Hatter Tea](https://en.touhouwiki.net/wiki/%E7%96%AF%E5%B8%BD%E5%AD%90%E8%8C%B6%E4%BC%9A).
+ - Qingdao THOnly 2017 <em class="deemph">/</em> MhT X 青岛THO纪念专辑 <em class="deemph">/</em> [LISTEN HERE](https://music.163.com/#/album?id=73915857)
+ - 泡沫、温泉、おしまい <em class="deemph">/</em> Piano Piece <em class="deemph">/</em> [LISTEN HERE](https://music.163.com/#/album?id=73915857)
+ - Necrofantasia (Take 1) <em class="deemph">/</em> Attempt at Something Jazzy <em class="deemph">/</em> [LISTEN HERE](https://music.163.com/#/song?id=1822832248)
 
-#### Qingdao THOnly 2017 Album ("MhT X 青岛THO纪念专辑", 2017, in collaboration with 核弹阿茶)
+<!-- #### Qingdao THOnly 2017 Album ("MhT X 青岛THO纪念专辑", 2017, in collaboration with 核弹阿茶)
 
-[![shields.io](https://img.shields.io/badge/%E2%99%AB_listen_online-netease_cloud_music-red?style=for-the-badge)](https://music.163.com/#/album?id=73915857)
+[![shields.io](https://img.shields.io/badge/%E2%99%AB_listen_online-netease_cloud_music-red?style=for-the-badge)](https://music.163.com/#/song?id=1822819593) -->
 
-------
+<!-- ------ -->
 
-#### Misc Doujin Albums (2018 - 2019, as part of Mad Hatter Tea)
+<!-- #### Misc Doujin Albums (2018 - 2019, as part of Mad Hatter Tea)
 
 [![shields.io](https://img.shields.io/badge/%E2%99%AB_listen_online-netease_cloud_music-red?style=for-the-badge)](https://music.163.com/#/song?id=1822819593)
 
 
-[![shields.io](https://img.shields.io/badge/%E2%99%AB_listen_online-netease_cloud_music-red?style=for-the-badge)](https://music.163.com/#/song?id=1822832248)
+[![shields.io](https://img.shields.io/badge/%E2%99%AB_listen_online-netease_cloud_music-red?style=for-the-badge)](https://music.163.com/#/song?id=1822832248) -->
