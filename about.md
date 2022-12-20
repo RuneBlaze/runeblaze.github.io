@@ -6,12 +6,18 @@ permalink: /about/
 
 ### Profile
 
-PhD Student @ UIUC
+CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics  <em class="deemph">/</em> bioinformatics
+
+Indie game developer, functional programming hobbyist (Clojure, Haskell)
 
 ### Research
-High-performance Data Analytics <em class="deemph">/</em> Computational Biology <em class="deemph">/</em> Bibliometrics
 
-<!-- Advisor: Tandy Warnow, UIUC -->
+- Zero-copy formats, scalable data science libraries for clusterings & bioinformatics
+- High performance algorithms for phylogenetics and community detection
+
+### Open Source
+
+ - [Coarse](https://github.com/RuneBlaze/coarse) <em class="deemph">/</em> Functional Programming <em class="deemph">/</em> Clojure lens (functional getter/setter) library
 
 ### Tech Stack
 
