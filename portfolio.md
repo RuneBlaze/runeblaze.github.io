@@ -12,22 +12,29 @@ Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <
 
 ## Research
 
-@[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign.
+@[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign. Also see [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en).
+
+### [Belinda](https://github.com/RuneBlaze/WITCH-NG) <em class="deemph">aka</em> ClusPolars
+
+<div class="sideline"><i class="fa-brands fa-rust"></i> Rust-powered Python Extension <em class="deemph">/</em> High Performance Data Science <em class="deemph">/</em> Graph Ananlytics </div>
+
+ - Extension to Polars to manipulate graph clusterings
+ - Uses novel data model to allow data frame manipulations to be applied to clusterings
+
+-----
 
 ### [WITCH-NG](https://github.com/RuneBlaze/WITCH-NG)
 
-<div class="sideline">Rust <em class="deemph">/</em> High Performance Data Analytics <em class="deemph">/</em> Bioinformatics</div>
+<div class="sideline"><i class="fa-brands fa-rust"></i> Rust <em class="deemph">/</em> High Performance Data Analytics <em class="deemph">/</em> Bioinformatics</div>
 
  - Rust-powered bioinformatics tool for adding unaligned fragments to a reference multiple-sequence alignment.
- - The most accurate software of its class (building on [WITCH](https://github.com/c5shen/WITCH)), but re-engineered and re-designed with a focus on performance.
-
-<!-- [![shields.io](https://img.shields.io/badge/research_paper-bioRxiv_preprint-teal?style=flat-square)](https://www.biorxiv.org/content/10.1101/2022.08.08.503232v1) -->
+ - The most accurate software of its class (building on [WITCH](https://github.com/c5shen/WITCH)), re-engineered and re-designed for much better performance
 
 -----
 
 ### [Internode](https://github.com/RuneBlaze/internode)
 
-<div class="sideline">Rust <em class="deemph">/</em> High Performance Data Analytics <em class="deemph">/</em> Bioinformatics</div>
+<div class="sideline"><i class="fa-brands fa-rust"></i> Rust <em class="deemph">/</em> High Performance Data Analytics <em class="deemph">/</em> Bioinformatics</div>
 
  - Computes species trees (evolutionary history on species) extremely fast while retaining high accuracy
 
@@ -38,7 +45,7 @@ Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <
 
 ### [Fifteen](https://github.com/RuneBlaze/fifteen)
 
-<div class="sideline">Rust-powered Python Extension <em class="deemph">/</em> Data Structures <em class="deemph">/</em> High Performance Data Science</div>
+<div class="sideline"><i class="fa-brands fa-rust"></i> Rust-powered Python Extension <em class="deemph">/</em> Data Structures <em class="deemph">/</em> High Performance Data Science</div>
 
  <!-- - Rust-powered Python Native Extension <em class="deemph">/</em> Data Structures <em class="deemph">/</em> High Performance Data Science -->
  - Python data structure library for querying topologies on phylogenetic trees.
@@ -48,8 +55,16 @@ Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <
 
 ## Open Source
 
+Already mentioned works omitted.
+
+### Owner
+
  - [Coarse](https://github.com/RuneBlaze/coarse) <em class="deemph">/</em> Clojure <em class="deemph">/</em> Functional Programming (Lens) Library
  - [Siki.lua](https://github.com/BakaBBQ/siki.lua) <em class="deemph">/</em> Lua + Love2d <em class="deemph">/</em> Fighting Game GUI Editor
+
+### Contributor
+
+ - [purescript-express](https://github.com/purescript-express/purescript-express) <em class="deemph">/</em> PureScript (Haskell dialect) <em class="deemph">/</em> PureScript web framework
 
 <!-- ----- -->
 <!-- 
@@ -70,8 +85,9 @@ Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <
 ### [Tree](https://store.steampowered.com/app/1811630/_Tree/) <em class="deemph">ー</em> 2021
 <img src="/assets/images/banners/tree.png" alt="Tree"/>
 
+<div class="sideline"><i class="fa-brands fa-unity"></i> Unity + C# <em class="deemph">/</em> Lead Programmer (Leap Studio) <em class="deemph">/</em> One month <em class="deemph">/</em> <strong><i class="fa-brands fa-square-steam"></i> Steam Published</strong> </div>
+
 - A narrative game with light puzzle elements focused on a young [Tujia](https://en.wikipedia.org/wiki/Tujia_people) girl.
-- Made in Unity with C#. I programmed a substantial part of the puzzles and was part of the leadership.
 - [Silver Award (Green Track)](https://gameinstitute-qq-com.translate.goog/yxds-2021/works/101910?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp), 2021 Tencent Youth Game Designer Challenge 
 
 ----
@@ -79,35 +95,39 @@ Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <
 ### [Dragon Spirits](https://store.steampowered.com/app/1074190/Dragon_Spirits/) <em class="deemph">ー</em> 2020
 <img src="/assets/images/banners/dragonspirits.png" alt="Dragon Spirits"/>
 
-- A Pokemon-inspired game but heavily focused on dragons and a nostalgic school life.
-- I served as the lead programmer of the game, did the work of all its core battle system.
-- Made in RPG Maker VX Ace (at the end of the gradual extinction of this engine) with a lot of Ruby.
+<div class="sideline"><i class="fa-solid fa-gem"></i> Ruby <em class="deemph">/</em> Main Programmer <em class="deemph">/</em> One year <em class="deemph">/</em> <strong><i class="fa-brands fa-square-steam"></i> Steam Published</strong> </div>
+
+- A Pokemon-inspired game with dragons and a nostalgic school life.
+
 
 ----
 
 ### [JingkeRL](https://ceremonial.itch.io/jingkerl) <em class="deemph">ー</em> 2018
 <img src="/assets/images/banners/jingkerl.png" alt="JingkeRL"/>
 
-- A small historical roguelike game, a reenactment of a famous ancient Chinese tragedy.
-- Made using Rot.js paired with TypeScript and finished in four days.
+<div class="sideline">TypeScript <em class="deemph">/</em> Personal Project <em class="deemph">/</em> 4 days</div>
+
+- A small historical roguelike game, a reenactment of a Chinese tragedy
 
 ----
 
 ### [WaveSTG](https://globalgamejam.org/2017/games/wavestg) <em class="deemph">ー</em> 2017
 <img src="/assets/images/banners/wavestg.png" alt="WaveSTG"/>
 
- - A bullet-hell game with a simple design: dodge waves of bullets.
- - Made in Love2D (Lua game engine) and finished in 48 hours.
+<div class="sideline"> Lua <em class="deemph">/</em> Personal Project <em class="deemph">/</em> 48 hours </div>
+
+ - A bullet-hell game; dodge waves of bullets.
 
 ----
 
 ### [EienteiRL](http://roguebasin.com/index.php/EienteiRL) <em class="deemph">ー</em> 2015
 <img src="/assets/images/banners/eienteirl.png" alt="EienteiRL"/>
 
+<div class="sideline"><i class="fa-solid fa-gem"></i> Ruby <em class="deemph">/</em> Personal Project <em class="deemph">/</em> 7 days </div>
+
  - A classical roguelike game but with Touhou-themed twists.
  - See [reviews](https://roguetemple.com/7drl/2015/) at the time by 7DRL judges.
-   - > Eientei brings innovative mechanics I've not seen before. The bullets that fill each room are only dangerous if you stop to attack. This is an excellent mechanic [...]
- - Made in Gosu (Ruby game engine) and finished in seven days.
+   - > Eientei brings innovative mechanics I have not seen before. The bullets that fill each room are only dangerous if you stop to attack. This is an excellent mechanic [...]
 
 ------
 

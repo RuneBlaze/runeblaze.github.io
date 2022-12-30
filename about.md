@@ -6,35 +6,40 @@ permalink: /about/
 
 ### Profile
 
-CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics  <em class="deemph">/</em> bioinformatics
+CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics <em class="deemph">/</em> bioinformatics
 
-Indie game developer, functional programming hobbyist (Clojure, Haskell)
+40% Researcher, 60% Developer
 
 ### Research
 
-- Zero-copy formats, scalable data science libraries for clusterings & bioinformatics
-- High performance algorithms for phylogenetics and community detection
+- Scalable data science libraries, zero copy formats for clusterings & bioinformatics
+- High performance algorithms (in Rust) for phylogenetics and graph clusterings
+
+### Software Engineering
+
+ - Games <em class="deemph">ー</em> Indie game developer since high school <em class="deemph">/</em> Professional developer for 10 months
+ - Web <em class="deemph">ー</em> Owner of two full-stack services serving ~100 users during high school and college
+ - Research Software <em class="deemph">ー</em> Tooling developer for data science <em class="deemph">/</em> Fast graph & bioinformatics algorithms
 
 ### Open Source
 
- - [Coarse](https://github.com/RuneBlaze/coarse) <em class="deemph">/</em> Functional Programming <em class="deemph">/</em> Clojure lens (functional getter/setter) library
+ - Functional Programming Libraries
+ - High Performance Data Science
+ - Game Development Tools
 
 ### Tech Stack
 
  - Python <em class="deemph">ー</em> Data Science, Bioinformatics
- - Rust <em class="deemph">ー</em> Low level programming
- - Java <em class="deemph">ー</em> Backend Programming
+ - Rust <em class="deemph">ー</em> Research Engineering
+ - Java <em class="deemph">ー</em> Backend
+ - JavaScript, React <em class="deemph">ー</em> Frontend
  - C#, Lua <em class="deemph">ー</em> Game Development
- - JavaScript, React <em class="deemph">ー</em> Frontend Programming
+ 
 
 ### Awards
 
  - 2021 Tencent Silver Award (Green Track) <em class="deemph">/</em> 2021腾讯高校游戏创意大赛绿色赛道银奖
 
-### Links
+### Others
 
- - [Phelen（ポレン）](/fun/#phelen-%E3%83%9D%E3%83%AC%E3%83%B3)
- - [My Functional Programming Library](https://github.com/RuneBlaze/coarse)
- - [My most listen-able music](https://music.163.com/#/album?id=73915857) (link to NetEase Cloud Music)
- - [The research software that I wish I could be paid to finish](https://github.com/RuneBlaze/ogcat)
- - [A game that I am part of](https://store.steampowered.com/app/1074190/Dragon_Spirits/)
+ - Music Arrangements <em class="deemph">ー</em> See [Works](http://127.0.0.1:4000/portfolio/#music)
