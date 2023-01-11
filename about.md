@@ -18,7 +18,7 @@ CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics 
 ### Software Engineering
 
  - Games <em class="deemph">ー</em> Indie game developer since high school <em class="deemph">/</em> Professional developer for 10 months
- - Web <em class="deemph">ー</em> Owner of two full-stack services serving ~100 users during high school and college
+ - Web <em class="deemph">ー</em> Currently in a startup writing web3 backend. Hobbyist developer throughout college
  - Research Software <em class="deemph">ー</em> Tooling developer for data science <em class="deemph">/</em> Fast graph & bioinformatics algorithms
 
 ### Open Source
@@ -38,7 +38,7 @@ CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics 
 
 ### Awards
 
- - 2021 Tencent Silver Award (Green Track) <em class="deemph">/</em> 2021腾讯高校游戏创意大赛绿色赛道银奖
+ - 2021 Tencent Game Jam for Youth Silver Award (Green Track) <em class="deemph">/</em> 2021腾讯高校游戏创意大赛绿色赛道银奖
 
 ### Others
 
