@@ -42,4 +42,4 @@ CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics 
 
 ### Others
 
- - Music Arrangements <em class="deemph">ー</em> See [Works](http://127.0.0.1:4000/portfolio/#music)
+ - Music Arrangements <em class="deemph">ー</em> See [Works](/portfolio/#music)
