@@ -8,7 +8,8 @@ permalink: /portfolio/
 Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <em class="deemph">/</em> Music
 </div>
 
-<!-- See [research software](#research-software), other [open source software I have done](#other-software), [games](#games) or even [music](#music). -->
+I am a strong developer looking for data engineer / research engineer / backend engineer internships. I have prior
+professional game development experience and with significant high performance data analysis research background as a PhD student.
 
 ## Research
 

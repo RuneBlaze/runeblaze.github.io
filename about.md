@@ -18,7 +18,7 @@ CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics 
 ### Software Engineering
 
  - Games <em class="deemph">ー</em> Indie game developer since high school <em class="deemph">/</em> Professional developer for 10 months
- - Web <em class="deemph">ー</em> Currently in a startup writing web3 backend. Hobbyist developer throughout college
+ - Web <em class="deemph">ー</em> Currently as of 2023 freelancing as a backend developer writing web2 to web3 bridges.
  - Research Software <em class="deemph">ー</em> Tooling developer for data science <em class="deemph">/</em> Fast graph & bioinformatics algorithms
 
 ### Open Source
