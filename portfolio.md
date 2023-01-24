@@ -9,7 +9,7 @@ Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <
 </div>
 
 I am a strong developer looking for research / data / backend engineer internships. I have prior
-professional game development experience with significant high performance data analysis research background as a PhD student.
+professional game development experience with high performance data analysis research background as a PhD student.
 
 ## Research
 
