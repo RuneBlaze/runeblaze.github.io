@@ -8,14 +8,27 @@ permalink: /portfolio/
 Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <em class="deemph">/</em> Music
 </div>
 
-I am a strong developer looking for research / data / backend engineer internships. I have prior
+I am a developer looking for research / data / backend engineer internships. I have prior
 professional game development experience with high performance data analysis research background as a PhD student.
+
+## Open Source
+
+Research work omitted.
+
+### Owner
+
+ - [Coarse](https://github.com/RuneBlaze/coarse) <em class="deemph">/</em> Clojure <em class="deemph">/</em> Functional Programming (Lens) Library
+ - [Siki.lua](https://github.com/BakaBBQ/siki.lua) <em class="deemph">/</em> Lua + Love2d <em class="deemph">/</em> Fighting Game GUI Editor
+
+### Contributor
+
+ - [purescript-express](https://github.com/purescript-express/purescript-express) <em class="deemph">/</em> PureScript (Haskell dialect) <em class="deemph">/</em> PureScript web framework
 
 ## Research
 
 @[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign. Also see [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en).
 
-### [Belinda](https://github.com/RuneBlaze/WITCH-NG) <em class="deemph">aka</em> ClusPolars
+### [Belinda](https://github.com/illinois-or-research-analytics/belinda) <em class="deemph">aka</em> ClusPolars
 
 <div class="sideline"><i class="fa-brands fa-rust"></i> Rust-powered Python Extension <em class="deemph">/</em> High Performance Data Science <em class="deemph">/</em> Graph Ananlytics </div>
 
@@ -54,18 +67,7 @@ professional game development experience with high performance data analysis res
 
 -----
 
-## Open Source
 
-Already mentioned works omitted.
-
-### Owner
-
- - [Coarse](https://github.com/RuneBlaze/coarse) <em class="deemph">/</em> Clojure <em class="deemph">/</em> Functional Programming (Lens) Library
- - [Siki.lua](https://github.com/BakaBBQ/siki.lua) <em class="deemph">/</em> Lua + Love2d <em class="deemph">/</em> Fighting Game GUI Editor
-
-### Contributor
-
- - [purescript-express](https://github.com/purescript-express/purescript-express) <em class="deemph">/</em> PureScript (Haskell dialect) <em class="deemph">/</em> PureScript web framework
 
 <!-- ----- -->
 <!-- 
