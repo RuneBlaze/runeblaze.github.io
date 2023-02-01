@@ -6,7 +6,7 @@ layout: page
 # title: About
 ---
 
-# About
+<!-- # About -->
 
 Also see [my portfolio](/portfolio) in case interested.
 
