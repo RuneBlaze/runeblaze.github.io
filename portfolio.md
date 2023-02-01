@@ -5,20 +5,17 @@ permalink: /portfolio/
 ---
 
 <div class="tagline">
-Research <em class="deemph">/</em> Open Source <em class="deemph">/</em> Games <em class="deemph">/</em> Music
+Open Source  <em class="deemph">/</em> Research <em class="deemph">/</em> Games <em class="deemph">/</em> Music
 </div>
-
-I am a developer looking for research / data / backend engineer internships. I have prior
-professional game development experience with high performance data analysis research background as a PhD student.
 
 ## Open Source
 
-Research work omitted.
+Non-research open source work. Also see [GitHub](https://github.com/RuneBlaze).
 
 ### Owner
 
  - [Coarse](https://github.com/RuneBlaze/coarse) <em class="deemph">/</em> Clojure <em class="deemph">/</em> Functional Programming (Lens) Library
- - [Siki.lua](https://github.com/BakaBBQ/siki.lua) <em class="deemph">/</em> Lua + Love2d <em class="deemph">/</em> Fighting Game GUI Editor
+ - [Siki.lua](https://github.com/BakaBBQ/siki.lua) <em class="deemph">/</em> Lua + Love2d <em class="deemph">/</em> Game Data GUI Editor for Fighting Games
 
 ### Contributor
 
@@ -30,7 +27,7 @@ Research work omitted.
 
 ### [Belinda](https://github.com/illinois-or-research-analytics/belinda) <em class="deemph">aka</em> ClusPolars
 
-<div class="sideline"><i class="fa-brands fa-rust"></i> Rust-powered Python Extension <em class="deemph">/</em> High Performance Data Science <em class="deemph">/</em> Graph Ananlytics </div>
+<div class="sideline"><i class="fa-brands fa-rust"></i> Rust-powered Python Extension <em class="deemph">/</em> High Performance Data Science <em class="deemph">/</em> Graph Analytics </div>
 
  - Extension to Polars to manipulate graph clusterings
  - Uses novel data model to allow data frame manipulations to be applied to clusterings
@@ -68,21 +65,6 @@ Research work omitted.
 -----
 
 
-
-<!-- ----- -->
-<!-- 
-#### [Siki.lua](https://github.com/BakaBBQ/siki.lua) -- Frame Editor for Fighting Games
-
- - An interactive GUI editor for frame data usable for fighting games powered by Love2D using Lua. -->
-
-<!-- ----- -->
-
-<!-- ### Other Publications -->
-
-
-
------
-
 ## Games
 
 ### [Tree](https://store.steampowered.com/app/1811630/_Tree/) <em class="deemph">ー</em> 2021
@@ -102,7 +84,6 @@ Research work omitted.
 
 - A Pokemon-inspired game with dragons and a nostalgic school life.
 
-
 ----
 
 ### [JingkeRL](https://ceremonial.itch.io/jingkerl) <em class="deemph">ー</em> 2018
@@ -110,7 +91,7 @@ Research work omitted.
 
 <div class="sideline">TypeScript <em class="deemph">/</em> Personal Project <em class="deemph">/</em> 4 days</div>
 
-- A small historical roguelike game, a reenactment of a Chinese tragedy
+- A small historical rogue-like game, a reenactment of a Chinese tragedy
 
 ----
 
