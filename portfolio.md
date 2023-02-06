@@ -25,7 +25,7 @@ Non-research open source work. Also see [GitHub](https://github.com/RuneBlaze).
 
 @[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign. Also see [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en).
 
-### [Belinda](https://github.com/illinois-or-research-analytics/belinda) <em class="deemph">aka</em> ClusPolars
+### [ClusPolars](https://github.com/RuneBlaze/cluspolars)
 
 <div class="sideline"><i class="fa-brands fa-rust"></i> Rust-powered Python Extension <em class="deemph">/</em> High Performance Data Science <em class="deemph">/</em> Graph Analytics </div>
 

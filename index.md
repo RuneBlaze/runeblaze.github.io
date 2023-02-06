@@ -6,9 +6,7 @@ layout: page
 # title: About
 ---
 
-<!-- # About -->
-
-Also see [my portfolio](/portfolio) in case interested.
+Also see [my portfolio](/portfolio) and [GitHub](https://github.com/RuneBlaze) in case interested.
 
 ### Profile
 
