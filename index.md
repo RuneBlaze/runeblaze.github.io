@@ -16,8 +16,8 @@ CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics 
 
 ### Research
 
-- High performance algorithms (in Rust) for phylogenetics and graph clusterings
-- Scalable data science libraries, zero copy formats for clusterings & bioinformatics
+- High performance algorithms (in Rust) for scientometrics and phylogenetics
+- Scalable data science libraries, impact of deep learning on phylogenetics
 
 ### Software Engineering
 

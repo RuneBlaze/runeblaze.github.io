@@ -8,9 +8,11 @@ permalink: /portfolio/
 Open Source  <em class="deemph">/</em> Research <em class="deemph">/</em> Games <em class="deemph">/</em> Music
 </div>
 
+Also see [GitHub](https://github.com/RuneBlaze) for open source work, and [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en) for research.
+
 ## Open Source
 
-Non-research open source work. Also see [GitHub](https://github.com/RuneBlaze).
+Non-research open source work.
 
 ### Owner
 
@@ -23,7 +25,7 @@ Non-research open source work. Also see [GitHub](https://github.com/RuneBlaze).
 
 ## Research
 
-@[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign. Also see [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en).
+@[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign.
 
 ### [ClusPolars](https://github.com/RuneBlaze/cluspolars)
 
@@ -31,6 +33,14 @@ Non-research open source work. Also see [GitHub](https://github.com/RuneBlaze).
 
  - Extension to Polars to manipulate graph clusterings
  - Uses novel data model to allow data frame manipulations to be applied to clusterings
+
+-----
+
+### [Augmenting Overlapping Clusters](https://github.com/illinois-or-research-analytics/aocv2_rs)
+
+<div class="sideline"><i class="fa-brands fa-rust"></i> Rust-based Scientometrics Tool
+
+ - Generating overlapping communities on graphs, designed for scientometrics
 
 -----
 
