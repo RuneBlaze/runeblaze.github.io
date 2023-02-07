@@ -25,7 +25,7 @@ Non-research open source work.
 
 ## Research
 
-@[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign.
+@[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign. This list focuses on research software, and [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en) contains a more complete list of research publications.
 
 ### [ClusPolars](https://github.com/RuneBlaze/cluspolars)
 
