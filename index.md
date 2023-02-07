@@ -6,7 +6,7 @@ layout: page
 # title: About
 ---
 
-Also see [my portfolio](/portfolio) and [GitHub](https://github.com/RuneBlaze) in case interested.
+Also see [my portfolio](/portfolio), [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en), and [GitHub](https://github.com/RuneBlaze) in case interested.
 
 ### Profile
 
