@@ -38,9 +38,9 @@ Non-research open source work.
 
 ### [Augmenting Overlapping Clusters](https://github.com/illinois-or-research-analytics/aocv2_rs)
 
-<div class="sideline"><i class="fa-brands fa-rust"></i> Rust-based Scientometrics Tool
+<div class="sideline"><i class="fa-brands fa-rust"></i> Rust-based Scientometrics Tool</div>
 
- - Generating overlapping communities on graphs, designed for scientometrics
+ - Generating overlapping communities on graphs, designed for Leiden/Louvain clusters on citation graphs or general graphs
 
 -----
 
