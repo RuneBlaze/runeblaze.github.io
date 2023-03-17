@@ -17,13 +17,13 @@ CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics 
 ### Research
 
 - High performance algorithms (in Rust) for scientometrics and phylogenetics
-- Scalable data science libraries, impact of deep learning on phylogenetics
+- Impact of deep learning on phylogenomics
 
 ### Software Engineering
 
  - Games <em class="deemph">ー</em> Indie game developer since high school <em class="deemph">/</em> Professional developer for 10 months
  - Web <em class="deemph">ー</em> Currently as of 2023 freelancing as a backend developer writing web2 to web3 bridges.
- - Research Software <em class="deemph">ー</em> Tooling developer for data science <em class="deemph">/</em> Fast graph & bioinformatics algorithms
+ <!-- - Research Software <em class="deemph">ー</em> Tooling developer for data science <em class="deemph">/</em> Fast graph & bioinformatics algorithms -->
 
 ### Open Source
 
@@ -39,7 +39,6 @@ CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics 
  - JavaScript, React <em class="deemph">ー</em> Frontend
  - C#, Lua <em class="deemph">ー</em> Game Development
  
-
 ### Awards
 
  - 2021 Tencent Game Jam for Youth Silver Award (Green Track) <em class="deemph">/</em> 2021腾讯高校游戏创意大赛绿色赛道银奖
