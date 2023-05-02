@@ -16,20 +16,21 @@ CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics 
 
 ### Research
 
-- High performance algorithms (in Rust) for scientometrics and phylogenetics
-- Impact of deep learning on phylogenomics
+- High performance algorithms for scientometrics and phylogenetics
+- Deep learning x populational phylogenetics
 
 ### Software Engineering
 
- - Games <em class="deemph">ー</em> Indie game developer since high school <em class="deemph">/</em> Professional developer for 10 months
- - Web <em class="deemph">ー</em> Currently as of 2023 freelancing as a backend developer writing web2 to web3 bridges.
+ - Games <em class="deemph">ー</em> Indie game developer since high school
+ - Web 
+ <!-- - <em class="deemph">ー</em> Currently as of 2023 freelancing as a backend developer writing web2 to web3 bridges. -->
  <!-- - Research Software <em class="deemph">ー</em> Tooling developer for data science <em class="deemph">/</em> Fast graph & bioinformatics algorithms -->
 
 ### Open Source
 
  - Functional Programming Libraries
- - High Performance Data Science
  - Game Development Tools
+ - High Performance Data Science
 
 ### Tech Stack
 
