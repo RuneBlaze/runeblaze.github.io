@@ -14,7 +14,7 @@ Fourth year CS PhD Student @ UIUC <em class="deemph">/</em> high performance dat
 
 I write high performance code for analyzing and moving huge amounts of data. My tools of choice
 are Rust, Python, and C++. I like *efficient* data movements, including zero-copy and cache-friendly,
-efficient layouts. I subscribe to the Arrow ecosystem (e.g., Parquet, Polars). More broadly, I care about the low levels of storing data and processing data fast.
+efficient layouts. I subscribe to the Arrow ecosystem (e.g., Parquet, Polars). More broadly, I care about the low levels and algorithms of storing data and processing data fast. In my PhD research that was primarily applied to bioinformatics.
 
 During my research I applied my high performance data analysis skills into developing perhaps the fastest, yet still accurate, software to infer species trees (evolutionary
 trees on species) in Rust (see [here](https://github.com/RuneBlaze/internode)). The data structure behind
