@@ -14,24 +14,19 @@ Also see [GitHub](https://github.com/RuneBlaze) for open source work, and [Googl
 
 Non-research open source work.
 
-### Owner
-
  - [Coarse](https://github.com/RuneBlaze/coarse) <em class="deemph">/</em> Clojure <em class="deemph">/</em> Functional Programming (Lens) Library
  - [Siki.lua](https://github.com/BakaBBQ/siki.lua) <em class="deemph">/</em> Lua + Love2d <em class="deemph">/</em> Game Data GUI Editor for Fighting Games
-
-### Contributor
-
- - [purescript-express](https://github.com/purescript-express/purescript-express) <em class="deemph">/</em> PureScript (Haskell dialect) <em class="deemph">/</em> PureScript web framework
+ - [purescript-express](https://github.com/purescript-express/purescript-express) <em class="deemph">/</em> PureScript (Haskell dialect) <em class="deemph">/</em> PureScript web framework (Contributor)
 
 ## Research
 
-@[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign. This list focuses on research software, and [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en) contains a more complete list of research publications.
+@[The Warnow Lab](http://tandy.cs.illinois.edu/), University of Illinois Urbana-Champaign. This list focuses on research software, and [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en) is for publications.
 
 ### [ClusPolars](https://github.com/RuneBlaze/cluspolars)
 
 <div class="sideline"><i class="fa-brands fa-rust"></i> Rust-powered Python Extension <em class="deemph">/</em> High Performance Data Science <em class="deemph">/</em> Graph Analytics </div>
 
- - Extension to Polars to manipulate graph clusterings
+ - Extension to Polars / Arrow to manipulate graph clusterings
  - Uses novel data model to allow data frame manipulations to be applied to clusterings
 
 -----

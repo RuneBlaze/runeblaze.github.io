@@ -6,44 +6,32 @@ layout: page
 # title: About
 ---
 
-Also see [my portfolio](/portfolio), [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en), and [GitHub](https://github.com/RuneBlaze) in case interested.
+<!-- Also see [my portfolio](/portfolio), [Google Scholar](https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en), and [GitHub](https://github.com/RuneBlaze) in case interested. -->
 
 ### Profile
 
-CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics <em class="deemph">/</em> bioinformatics
+CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics <em class="deemph">/</em> bioinformatics.
 
-40% Researcher, 60% Developer
+I write high performance code for analyzing and moving huge amounts of data. My tools of choice
+are Rust, Python, and C++. I like *efficient* data movements, including zero-copy and cache-friendly,
+efficient layouts. I subscribe to the Arrow ecosystem (e.g., Parquet, Polars). More broadly, I care about the low levels of storing data and processing data fast.
 
-### Research
+During my research I applied my high performance data analysis skills into developing perhaps the fastest, yet still accurate, software to infer species trees (evolutionary
+trees on species) in Rust (see [here](https://github.com/RuneBlaze/internode)). The data structure behind
+this software is now packaged as a [Python library](https://github.com/RuneBlaze/fifteen) and deployed to speed up other bioinformatics [software](https://github.com/ytabatabaee/Quintet-Rooting). 
 
-- High performance algorithms for scientometrics and phylogenetics
-- Deep learning x populational phylogenetics
+I also very recently worked on supervised learning for phylogenetics. I previously was interested in functional programming and game development.
 
-### Software Engineering
+### Prior Experiences
 
- - Games <em class="deemph">ー</em> Indie game developer since high school
- - Web 
- <!-- - <em class="deemph">ー</em> Currently as of 2023 freelancing as a backend developer writing web2 to web3 bridges. -->
- <!-- - Research Software <em class="deemph">ー</em> Tooling developer for data science <em class="deemph">/</em> Fast graph & bioinformatics algorithms -->
-
-### Open Source
-
- - Functional Programming Libraries
- - Game Development Tools
- - High Performance Data Science
-
-### Tech Stack
-
- - Python <em class="deemph">ー</em> Data Science, Bioinformatics
- - Rust <em class="deemph">ー</em> Research Engineering
- - Java <em class="deemph">ー</em> Backend
- - JavaScript, React <em class="deemph">ー</em> Frontend
- - C#, Lua <em class="deemph">ー</em> Game Development
+ - Google <em class="deemph">/</em> Software Engineering Intern (Fall 2023) <em class="deemph">/</em> Large graph analysis
+ - Adobe Resesarch <em class="deemph">/</em> Research Engineer Intern (Summer 2023) <em class="deemph">/</em> Move and process video data efficiently and extensibly for downstream ML training
  
 ### Awards
 
+ - Best Robustness Award, Adobe Research Code Quality Jam
  - 2021 Tencent Game Jam for Youth Silver Award (Green Track) <em class="deemph">/</em> 2021腾讯高校游戏创意大赛绿色赛道银奖
 
-### Others
+<!-- ### Others -->
 
- - Music Arrangements <em class="deemph">ー</em> See [Works](/portfolio/#music)
+ <!-- - Music Arrangements <em class="deemph">ー</em> See [Works](/portfolio/#music) -->
