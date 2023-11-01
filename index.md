@@ -10,7 +10,7 @@ layout: page
 
 ### Profile
 
-CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics <em class="deemph">/</em> bioinformatics.
+Fourth year CS PhD Student @ UIUC <em class="deemph">/</em> high performance data analytics <em class="deemph">/</em> bioinformatics.
 
 I write high performance code for analyzing and moving huge amounts of data. My tools of choice
 are Rust, Python, and C++. I like *efficient* data movements, including zero-copy and cache-friendly,
