@@ -1,0 +1,29 @@
+baseURL = "https://runeblaze.github.io/"
+languageCode = "en-us"
+title = "RuneBlaze"
+theme = "PaperMod"
+
+[params]
+  # color palette
+  # secondary color used for link hover, etc.
+  secondary = "#f8f8f2"
+  # content background
+  content = "#f8f8f2"
+  # header/footer background
+  # bg = "#f8f8f2"
+  # text color
+  # color = "#282a36"
+
+  [[menu.main]]
+    identifier = "fun"
+    name = "fun"
+    url = "/fun/"
+    weight = 20
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "portfolio"
+    url = "/portfolio/"
+    weight = 30
+
+[markup.goldmark.renderer]
+  unsafe = true

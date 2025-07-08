@@ -3,3 +3,10 @@ _site
 .jekyll-metadata
 Gemfile.lock
 .DS_Store
+
+/public/
+/resources/_gen/
+
+hugo.exe
+hugo.linux
+hugo.darwin
