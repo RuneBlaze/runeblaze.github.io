@@ -9,7 +9,7 @@ title: "About"
 <div class="row">
   <div class="column">
     <video class="penapple-video" autoplay loop muted playsinline style="width: 100%; opacity: 0.8; filter: grayscale(20%) contrast(80%) brightness(120%);" src="https://ai.google.dev/static/videos/winners/penapple.mp4"></video>
-    <p style="text-align: center; opacity: 0.7;"><a href="/portfolio/" style="text-decoration: none; color: inherit;"><em>Pen Apple</em>, 2024 &mdash; Winner, Google Gemini API Developer Competition</a></p>
+    <p style="text-align: center; opacity: 0.7;"><a href="https://ai.google.dev/competition/projects/pen-apple" style="text-decoration: none; color: inherit;"><em>Pen Apple</em>, 2024 &mdash; Winner, Best Game, Google Gemini API Developer Competition</a></p>
   </div>
 </div>
 
@@ -21,7 +21,7 @@ My game making influence can be high-level summarized, in my own words, as:
 
 > (A brief translation: I'm so happy that Pen Apple, a game that was heavily influenced by the 'doujin game' scene, was able to win an award. While it also drew some inspiration from American-style 'indie games', I see this as a testament to how Japan's vibrant 'doujin culture' can be recognized even in an American tech competition 🙂.)
 
-I had brief stints in the RPG Maker sphere and Touhou doujin music sphere. You might know me from those periods.
+I had brief stints in the RPG Maker sphere (under [RuneBlaze](https://store.steampowered.com/app/1074190/Dragon_Spirits/) and [LBQ](https://rpg.blue/thread-304811-1-1.html)) and Touhou doujin music sphere (under [LBQ](https://thwiki.cc/LBQ), of the circle Mad Hatter Tea). You might know me from those periods.
 
 ### Education
 
