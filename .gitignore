@@ -1,12 +1,21 @@
-_site
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# os / editor
 .DS_Store
+.vscode/*
+!.vscode/extensions.json
 
-/public/
-/resources/_gen/
-
-hugo.exe
-hugo.linux
-hugo.darwin
+# env
+.env
+.env.*
+!.env.example

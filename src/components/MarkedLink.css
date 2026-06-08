@@ -1,0 +1,62 @@
+/* MarkedLink (React island): a link with a small note that reveals on
+   hover/focus. The note is absolutely positioned so it never reflows the line.
+   Scoped under .post-content so it wins over the base link rule. */
+.post-content .ml {
+  position: relative;
+}
+.post-content .ml__link {
+  text-decoration: underline dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+.post-content .ml--warn .ml__link {
+  color: var(--accent);
+  text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.post-content .ml--warn .ml__link:hover {
+  text-decoration-color: var(--lc-clay);
+}
+.post-content .ml--info .ml__link {
+  color: var(--accent-2);
+  text-decoration-color: color-mix(in srgb, var(--accent-2) 50%, transparent);
+}
+.post-content .ml--info .ml__link:hover {
+  text-decoration-color: var(--accent-2);
+}
+
+.post-content .ml__flag {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 0.35em);
+  white-space: nowrap;
+  font-size: 0.62em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  background: var(--bg); /* masks text underneath; not a panel */
+  padding: 0.05em 0.4em 0.05em 0;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.18s ease, transform 0.22s ease;
+  pointer-events: none;
+  z-index: 3;
+}
+.post-content .ml--warn .ml__flag {
+  color: var(--accent);
+}
+.post-content .ml--info .ml__flag {
+  color: var(--accent-2);
+}
+.post-content .ml.is-hot .ml__flag {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .post-content .ml__flag {
+    transition: opacity 0.18s ease;
+    transform: none;
+  }
+  .post-content .ml.is-hot .ml__flag {
+    transform: none;
+  }
+}

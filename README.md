@@ -1,46 +1,42 @@
-# ultralight
+# runeblaze.github.io
 
-[![Build Status](https://travis-ci.org/kotet/ultralight.svg?branch=master)](https://travis-ci.org/kotet/ultralight)
+Personal site of Baqiao Liu (RuneBlaze). Built with [Astro](https://astro.build)
++ MDX, deployed to GitHub Pages.
 
-![shot](https://user-images.githubusercontent.com/8435623/34344912-0665d490-ea2e-11e7-9bd8-919a6ced2a40.png)
+## Stack
 
-Ultralight is super-lightweight responsive super Jekyll theme.
-It can be hosted on GitHub Pages/IPFS.
+- **Astro** (static output) with `@astrojs/mdx`, `@astrojs/react`, `@astrojs/sitemap`
+- **Iosevka Etoile** as the main Latin face (self-hosted, Latin-subset woff2 in `public/fonts/`)
+- **Lost Century** palette (Kerrie Lake) — warm letterpress aesthetic, light/dark toggle
 
-[demo1](https://kotet.github.io/ultralight/)
+## Develop
 
-### Output size:
-
-- [minima@affcd93](https://github.com/jekyll/minima/tree/affcd93be22e960afd2be08e6891d99b31bcf920): 256K
-- **[ultralight@9bffabb](https://github.com/kotet/ultralight/tree/9bffabb42cc64c0be563d5c3d3977ab6bb5761b9): 40K**
-
-### Pagespeed:
-
-![screenshot from 2017-12-26 10-17-46](https://user-images.githubusercontent.com/8435623/34344205-7f316c3e-ea26-11e7-8fcb-1184ee929c8d.png)
-
-## Usage
-
-### GitHub Pages
-
-```console
-$ git clone https://github.com/kotet/ultralight.git && cd ultralight
-$ git remote set-url origin https://github.com/yourname/yourname.github.io.git
-$ git push origin master
+```sh
+pnpm install
+pnpm dev        # http://localhost:4321
+pnpm build      # → dist/
+pnpm preview    # serve the build locally
 ```
 
-### IPFS
-
-```console
-$ git clone https://github.com/kotet/ultralight.git && cd ultralight
-$ bundle && bundle exec jekyll build
-$ ipfs add -r _site/
-```
-
-#### Internal link
-
-On IPFS, all internal links must be relative links.
-You can use `relative` template like this:
+## Structure
 
 ```
-[link]({% include relative %}{% post_url your-article-filename %})
+src/
+  layouts/Base.astro     header nav + dark toggle, <head>, footer
+  styles/global.css      the whole theme (palette, type, layout)
+  pages/
+    index.mdx            /          (about + résumé)
+    fun.mdx              /fun/
+    portfolio.mdx        /portfolio/ (works)
+    404.astro
+public/
+  fonts/   images/   favicon.svg
 ```
+
+Content is MDX, so React islands can be dropped in later for microinteractivity
+(`@astrojs/react` is already wired up).
+
+## Deploy
+
+Pushing to `master` triggers `.github/workflows/deploy.yml`, which builds with
+pnpm and publishes `dist/` via GitHub Pages.

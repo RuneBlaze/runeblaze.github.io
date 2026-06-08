@@ -1,0 +1,136 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+// Direct .astro usage passes props at top level; MDX `layout` frontmatter
+// nests them under `frontmatter`. Support both.
+const props = ((Astro.props as any).frontmatter ?? Astro.props) as Props;
+const {
+  title = 'RuneBlaze',
+  description = 'Baqiao Liu (RuneBlaze) — Member of Technical Staff at World Labs. Games, open source, music.',
+} = props;
+
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isActive = (href: string) => {
+  const h = href.replace(/\/$/, '') || '/';
+  return h === '/' ? path === '/' : path === h || path.startsWith(h + '/');
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+
+    <!-- preload self-hosted Iosevka Etoile -->
+    <link rel="preload" href="/fonts/iosevka-etoile-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/iosevka-etoile-bold.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- Adobe Fonts (Typekit) — Momochidori JP face (JS loader; auto-allows localhost).
+         CSS embed is domain-locked & 412s on un-allowlisted hosts, so use the loader.
+         PROD: add runeblaze.github.io to the kit's allowed domains in Adobe Fonts. -->
+    <link rel="preconnect" href="https://use.typekit.net" crossorigin />
+    <link rel="preconnect" href="https://p.typekit.net" crossorigin />
+    <script is:inline>
+      (function (d) {
+        var config = { kitId: 'ejs4zar', scriptTimeout: 3000, async: true },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className = h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+          }, config.scriptTimeout),
+          tk = d.createElement('script'),
+          f = false,
+          s = d.getElementsByTagName('script')[0],
+          a;
+        h.className += ' wf-loading';
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != 'complete' && a != 'loaded')) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+
+    <!-- no-FOUC theme: set .dark before paint -->
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          if (t === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="logo" href="/">RuneBlaze</a>
+        <ul id="menu">
+          <li><a href="/fun/" class={isActive('/fun/') ? 'active' : undefined}>fun</a></li>
+          <li><a href="/portfolio/" class={isActive('/portfolio/') ? 'active' : undefined}>works</a></li>
+          <li>
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle light/dark theme">
+              <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="4.2" />
+                <path d="M12 2.5v2.4M12 19.1v2.4M4.6 4.6l1.7 1.7M17.7 17.7l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.6 19.4l1.7-1.7M17.7 6.3l1.7-1.7" />
+              </svg>
+              <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.8 6.8 0 0 0 9.8 9.8z" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <article class="post-single">
+        <div class="post-content">
+          <slot />
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="inner">
+        <span>© RuneBlaze</span>
+        <span>
+          <a href="https://github.com/RuneBlaze">github</a>
+          &nbsp;
+          <a href="https://scholar.google.com/citations?user=NWaomv8AAAAJ&hl=en">scholar</a>
+        </span>
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.getElementById('theme-toggle');
+      btn?.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        try {
+          localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        } catch (e) {}
+      });
+    </script>
+  </body>
+</html>
