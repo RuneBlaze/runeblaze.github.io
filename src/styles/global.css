@@ -225,12 +225,23 @@ html.dark .theme-toggle .icon-moon { display: inline; }
 .post-content h3 { font-weight: 700; color: var(--accent-2); }
 
 .post-content h3 {
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  margin: 2.4rem 0 0.9rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid var(--rule);
+  font-size: 1.08rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--ink);
+  margin: 2.25rem 0 0.8rem;
+  padding: 0;
+  border: 0;
+}
+.post-content h3::before {
+  content: "";
+  display: inline-block;
+  width: 0.42rem;
+  height: 0.42rem;
+  margin-right: 0.55rem;
+  border: 1px solid var(--lc-gold);
+  transform: rotate(45deg);
+  vertical-align: 0.08em;
 }
 .post-content h2 {
   font-size: 1.5rem;
@@ -514,9 +525,6 @@ html.dark .post-content .plate:hover .plate__media { filter: brightness(0.98); }
   color: var(--quiet);
   vertical-align: 0.1em;
 }
-
-/* headings beside the float don't run their rule under the infobox */
-.post-content h3 { overflow: hidden; }
 
 @media (max-width: 640px) {
   .post-content .infobox { float: none; width: auto; margin: 0 0 1.6rem; }
