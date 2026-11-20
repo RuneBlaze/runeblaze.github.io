@@ -683,37 +683,180 @@ html.dark .post-content .plate:hover .plate__media { filter: brightness(0.98); }
 }
 .post-content a[data-footnote-backref]:hover { color: var(--accent); }
 
-/* hidden detail — a self-appointed title, redacted; hover/tap to reveal */
+/* redaction — washi tape. One style for every hidden detail (a persona, a
+   title): a strip of translucent clay-pink paper tape with fibre grain, a
+   sparse print of little cats (sitting, peeking, a 香箱座り loaf) with a few
+   dots and a paw print on a long repeat, motifs cropped by the edge, torn
+   ends and a slight tilt. The text beneath is invisible, so the tape can
+   stay see-through like the real thing.
+   Reveal on hover / focus / tap: the tape peels like tape — one animated
+   --peel value moves a straight peel front from the free end to the stuck
+   end; the stuck stretch is clipped there, and the peeled stretch folds back
+   over it (back side up, print mirrored through, a crease at the fold),
+   lifting and thinning out until it's gone. Leaving re-lays it. */
+:root {
+  --tape: color-mix(in srgb, var(--lc-clay) 46%, var(--paper));
+  --tape-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='60'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.035 0.7' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.55 -0.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E");
+  --tape-cats: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 19' width='120' height='19'%3E%3Cg fill='%23a8583f' opacity='.4' transform='translate(5 0.6) scale(.82)'%3E%3Cpath d='M5 7.2L5.4 3.6L7.4 5.6Q8.2 5.4 9 5.6L11 3.6L11.4 7.2Q11.9 8.4 11.4 9.4Q13 11.5 12.4 14.2Q12 15.6 10.4 15.8L6 15.8Q4.4 15.6 4 14.2Q3.4 11.5 5 9.4Q4.5 8.4 5 7.2Z'/%3E%3Cpath fill='none' stroke='%23a8583f' stroke-width='1.1' stroke-linecap='round' d='M11.8 15.4Q15.2 15.4 14.6 12.4'/%3E%3C/g%3E%3Cg fill='%23a8583f' opacity='.3'%3E%3Ccircle cx='33' cy='5' r='.9'/%3E%3Ccircle cx='38.5' cy='11' r='.6'/%3E%3Ccircle cx='34.5' cy='15' r='.75'/%3E%3C/g%3E%3Cg fill='%23a8583f' opacity='.4'%3E%3Ccircle cx='60' cy='20.6' r='4.4'/%3E%3Cpath d='M56.1 18.2L56.5 13.6L59.1 16.6ZM60.9 16.6L63.5 13.6L63.9 18.2Z'/%3E%3C/g%3E%3Cg fill='%23a8583f' opacity='.4' transform='translate(64 -1.2) scale(.72) rotate(-6 27 12)'%3E%3Cpath d='M20 13Q20 9.4 24 9.2L30 9.2Q33.6 9.4 33.6 12.6Q33.6 15.6 31 15.6L22.4 15.6Q20 15.6 20 13Z'/%3E%3Ccircle cx='22.6' cy='10.4' r='2.9'/%3E%3Cpath d='M20.2 9.4L20.3 6.6L22.1 8.1ZM23.1 7.8L24.9 6.6L25.1 9.4Z'/%3E%3Cpath fill='none' stroke='%23a8583f' stroke-width='1.1' stroke-linecap='round' d='M33.2 14.6Q35.8 14.6 35.4 12.4'/%3E%3C/g%3E%3Cg fill='%23a8583f' opacity='.3' transform='rotate(14 106 9)'%3E%3Cellipse cx='106' cy='10.4' rx='1.7' ry='1.35'/%3E%3Ccircle cx='103.9' cy='7.9' r='.6'/%3E%3Ccircle cx='105.3' cy='6.9' r='.6'/%3E%3Ccircle cx='106.9' cy='6.9' r='.6'/%3E%3Ccircle cx='108.2' cy='7.9' r='.6'/%3E%3C/g%3E%3C/svg%3E");
+}
+html.dark {
+  --tape: color-mix(in srgb, var(--lc-maroon) 80%, var(--bg));
+  --tape-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='60'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.035 0.7' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 -0.1'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E");
+  --tape-cats: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 19' width='120' height='19'%3E%3Cg fill='%23e6b2a8' opacity='.34' transform='translate(5 0.6) scale(.82)'%3E%3Cpath d='M5 7.2L5.4 3.6L7.4 5.6Q8.2 5.4 9 5.6L11 3.6L11.4 7.2Q11.9 8.4 11.4 9.4Q13 11.5 12.4 14.2Q12 15.6 10.4 15.8L6 15.8Q4.4 15.6 4 14.2Q3.4 11.5 5 9.4Q4.5 8.4 5 7.2Z'/%3E%3Cpath fill='none' stroke='%23e6b2a8' stroke-width='1.1' stroke-linecap='round' d='M11.8 15.4Q15.2 15.4 14.6 12.4'/%3E%3C/g%3E%3Cg fill='%23e6b2a8' opacity='.26'%3E%3Ccircle cx='33' cy='5' r='.9'/%3E%3Ccircle cx='38.5' cy='11' r='.6'/%3E%3Ccircle cx='34.5' cy='15' r='.75'/%3E%3C/g%3E%3Cg fill='%23e6b2a8' opacity='.34'%3E%3Ccircle cx='60' cy='20.6' r='4.4'/%3E%3Cpath d='M56.1 18.2L56.5 13.6L59.1 16.6ZM60.9 16.6L63.5 13.6L63.9 18.2Z'/%3E%3C/g%3E%3Cg fill='%23e6b2a8' opacity='.34' transform='translate(64 -1.2) scale(.72) rotate(-6 27 12)'%3E%3Cpath d='M20 13Q20 9.4 24 9.2L30 9.2Q33.6 9.4 33.6 12.6Q33.6 15.6 31 15.6L22.4 15.6Q20 15.6 20 13Z'/%3E%3Ccircle cx='22.6' cy='10.4' r='2.9'/%3E%3Cpath d='M20.2 9.4L20.3 6.6L22.1 8.1ZM23.1 7.8L24.9 6.6L25.1 9.4Z'/%3E%3Cpath fill='none' stroke='%23e6b2a8' stroke-width='1.1' stroke-linecap='round' d='M33.2 14.6Q35.8 14.6 35.4 12.4'/%3E%3C/g%3E%3Cg fill='%23e6b2a8' opacity='.26' transform='rotate(14 106 9)'%3E%3Cellipse cx='106' cy='10.4' rx='1.7' ry='1.35'/%3E%3Ccircle cx='103.9' cy='7.9' r='.6'/%3E%3Ccircle cx='105.3' cy='6.9' r='.6'/%3E%3Ccircle cx='106.9' cy='6.9' r='.6'/%3E%3Ccircle cx='108.2' cy='7.9' r='.6'/%3E%3C/g%3E%3C/svg%3E");
+}
+@property --peel { syntax: "<number>"; inherits: true; initial-value: 0; }
+
 .post-content .redacted {
+  --torn-l: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 20' preserveAspectRatio='none'%3E%3Cpolygon points='6,0 1.5,0 3,1.6 0.4,3.4 2.4,5.2 0,7.3 2.8,9.1 0.8,11 2.2,12.8 0,14.9 2.6,16.6 0.6,18.4 1.8,20 6,20'/%3E%3C/svg%3E");
+  --torn-r: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 20' preserveAspectRatio='none'%3E%3Cpolygon points='0,0 4.2,0 2.8,1.8 5.6,3.5 3.4,5.4 6,7.1 3.1,9 5.2,10.9 3.8,12.7 6,14.6 3.3,16.4 5.5,18.3 4,20 0,20'/%3E%3C/svg%3E");
+  --solid: linear-gradient(#000, #000);
+  --peel: 0;                          /* 0 = stuck down, 1 = lifted away */
+  --tilt: -1.4deg;                    /* per-tape: how it was laid down */
+  --pat: 0px;                         /* per-tape: where on the roll it was torn */
+  --slant: 0.3em;                     /* the peel line runs a little diagonal */
+  --span: calc(100% + 0.48em);        /* tape length: the word plus overhang */
+  /* the peeled stretch is pulled up and back, steeper as more comes up, so
+     seen from above it reads long at first, then short as it lifts away */
+  /* two phases: the peel line travels the whole strip (q: 0→1 over the first
+     88%), then the freed strip, held by its end, lifts off (d: 0→1) */
+  --q: min(1, var(--peel) / 0.88);
+  --d: clamp(0, (var(--peel) - 0.88) / 0.12, 1);
+  --ff: calc(var(--q) * (0.62 - 0.5 * var(--q)));
+  /* contact shadow: appears as the flap lifts, gone once it's off */
+  --shade: color-mix(in srgb, var(--ink)
+           calc(18% * min(1, var(--q) * 6) * (1 - var(--d))),
+           transparent);
   position: relative;
-  color: var(--em);
+  color: transparent;
   white-space: nowrap;
   cursor: help;
+  outline: none;
+  margin-inline: 0.12em;
+  /* re-laying: quick, settles softly */
+  transition: --peel 0.45s cubic-bezier(0.2, 0.75, 0.3, 1), color 0s linear 0.45s;
 }
+.post-content .redacted:hover,
+.post-content .redacted:focus {
+  --peel: 1;
+  color: var(--em);
+  /* peeling: the adhesive resists at first, then gives */
+  transition: --peel 1.05s cubic-bezier(0.62, 0, 0.22, 1), color 0s;
+}
+
+.post-content .redacted::before,
 .post-content .redacted::after {
   content: "";
   position: absolute;
-  left: -0.18em;
-  right: -0.18em;
-  bottom: 0.15em;
-  height: 1.05em;                   /* text-height bar over the romaji base only */
-  background: var(--ink);
-  border-radius: 2px;
-  opacity: 0.88;
-  transition: opacity 0.32s ease;
+  top: 0.04em;
+  bottom: -0.06em;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  pointer-events: none;
 }
-.post-content .redacted:hover::after,
-.post-content .redacted:focus-visible::after,
-.post-content .redacted:active::after { opacity: 0; }
 
-/* the kanji ruby stays hidden while redacted; it reveals only on hover/focus */
-.post-content .redacted .name-jp rt {
-  opacity: 0;
-  transition: opacity 0.32s ease;
+/* the stretch still stuck down: flat, cut along the slanted peel line, with
+   the lifted flap's shadow and the curl's darker contact line falling on it */
+.post-content .redacted::after {
+  --front: calc((1 - var(--q)) * (100% + var(--slant)));
+  left: -0.24em;
+  width: var(--span);
+  background-image:
+    linear-gradient(to right,
+      transparent calc(var(--front) - var(--ff) * 100% + 0.1em),
+      var(--shade) calc(var(--front) - var(--ff) * 100% + 0.55em),
+      color-mix(in srgb, var(--shade) 70%, transparent) calc(var(--front) - var(--slant) - 0.35em),
+      var(--shade) calc(var(--front) - var(--slant) - 0.06em),
+      transparent calc(var(--front) - var(--slant))),
+    var(--tape-grain),
+    var(--tape-cats),
+    linear-gradient(var(--tape), var(--tape));
+  background-size: 100% 100%, 480px 60px, auto 100%, auto;
+  background-repeat: no-repeat, repeat, repeat-x, no-repeat;
+  background-position:
+    0 0,
+    right calc(var(--pat) * 3) top 0,
+    right calc(-2px - var(--pat)) center,
+    0 0;
+  -webkit-mask-image: var(--torn-l), var(--solid), var(--torn-r);
+  mask-image: var(--torn-l), var(--solid), var(--torn-r);
+  -webkit-mask-size: 7px 100%, calc(100% - 13px) 100%, 7px 100%;
+  mask-size: 7px 100%, calc(100% - 13px) 100%, 7px 100%;
+  -webkit-mask-position: left top, center top, right top;
+  mask-position: left top, center top, right top;
+  clip-path: polygon(-1em 0, var(--front) 0, calc(var(--front) - var(--slant)) 100%, -1em 100%);
+  opacity: 1;                          /* opaque: the word shows only behind the peel line */
+  transform: rotate(var(--tilt));
 }
+
+/* the peeled stretch, folded back: back side up (paler, the print showing
+   through mirrored), a rounded curl at the fold, rising and turning as it's
+   pulled until it comes away */
+.post-content .redacted::before {
+  /* never longer than the tape left to peel: near the end it is pulled
+     almost straight up, so only the held end shows */
+  --fw: min(var(--ff) * var(--span), (1 - var(--q)) * (var(--span) + var(--slant)) + 0.18em);
+  z-index: 1;
+  left: calc(-0.24em + (1 - var(--q)) * (var(--span) + var(--slant)) - var(--fw));
+  width: var(--fw);
+  background-image:
+    linear-gradient(to right,                       /* the curl, as a cylinder */
+      color-mix(in srgb, var(--ink) 20%, transparent) 0,
+      color-mix(in srgb, var(--paper) 40%, transparent) 0.1em,
+      color-mix(in srgb, var(--paper) 12%, transparent) 0.3em,
+      color-mix(in srgb, var(--ink) 7%, transparent) 0.55em,
+      transparent 1.1em),
+    var(--tape-grain),
+    linear-gradient(var(--tape-veil), var(--tape-veil)),
+    var(--tape-cats),
+    linear-gradient(var(--tape-back), var(--tape-back));
+  background-size: 100% 100%, 480px 60px, 100% 100%, auto 100%, auto;
+  background-repeat: no-repeat, repeat, no-repeat, repeat-x, no-repeat;
+  background-position:
+    0 0,
+    right calc(var(--pat) * 3) top 0,
+    0 0,
+    right calc(-2px - var(--pat)) center,
+    0 0;
+  -webkit-mask-image: var(--solid), var(--torn-r);
+  mask-image: var(--solid), var(--torn-r);
+  -webkit-mask-size: calc(100% - 6px) 100%, 7px 100%;
+  mask-size: calc(100% - 6px) 100%, 7px 100%;
+  -webkit-mask-position: left top, right top;
+  mask-position: left top, right top;
+  /* local x=0 is the fold (it lands on the right once mirrored) */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, var(--slant) 100%);
+  opacity: calc(0.97 * (1 - var(--d)));
+  /* hinged at the fold (the box's right edge once mirrored): turn about it
+     while peeling; only lift clear of the paper once the strip is free */
+  transform:
+    translateY(calc(var(--d) * -0.75em))
+    translateX(50%)
+    rotate(calc(var(--tilt) - var(--q) * 4deg - var(--d) * 6deg))
+    translateX(-50%)
+    scaleX(-1);
+}
+:root {
+  --tape-back: color-mix(in srgb, var(--tape) 90%, var(--paper));
+  --tape-veil: color-mix(in srgb, var(--tape-back) 45%, transparent);
+}
+html.dark {
+  --tape-back: color-mix(in srgb, var(--tape) 82%, var(--lc-clay));
+}
+
+.post-content .redacted:focus-visible {
+  outline: 1px dotted var(--quiet);
+  outline-offset: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .post-content .redacted,
+  .post-content .redacted:hover,
+  .post-content .redacted:focus { transition: none; }
+}
+
+/* the kanji ruby stays hidden while taped; it shows once revealed */
+.post-content .redacted .name-jp rt { opacity: 0; transition: opacity 0.2s ease; }
 .post-content .redacted:hover .name-jp rt,
-.post-content .redacted:focus-visible .name-jp rt,
-.post-content .redacted:active .name-jp rt { opacity: 1; }
+.post-content .redacted:focus .name-jp rt { opacity: 1; transition: opacity 0.3s ease 0.55s; }
 
 /* name in Asian order with the kanji set as ruby on top (右代宮　理御) */
 .post-content .name-jp {
